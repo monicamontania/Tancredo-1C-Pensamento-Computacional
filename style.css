@@ -1,5 +1,6 @@
 body{
-    background: #fbb1bd;
+    background: linear-gradient (#f991a2 #fc4160) ;
+    margin: 0 auto;
 }
 main {
     text-align: center; 
@@ -13,12 +14,9 @@ main {
     width: 50%;
     height: 100%;
 }
-.conteudo{
-    background: #ffccd5;
-}
-.beneficios{
-    background-color: #f991a2;
-    display: inline-block;
+
+.beneficios h2 {
+    text-align: center;
 }
 ul{
     display: inline-block;
@@ -34,4 +32,7 @@ li{
 .foto-beneficios{
     width: 30%;
     height: 50%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #ffffff; 
+    
 }
