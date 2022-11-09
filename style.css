@@ -1,7 +1,31 @@
 body{
-    background: linear-gradient (#f991a2 #fc4160) ;
+    background:linear-gradient( #ebb5bd, #fc6b83) ;
     margin: 0 auto;
 }
+ .foto-logo{
+    width: 10%;
+    margin-left: 18px;
+    border-radius: 100%;
+ }
+ nav {
+    position:absolute;
+    top: 65px;
+    right: 65px;
+
+ }
+ nav a{
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    color:#ed647b
+ }
+ nav a:hover{
+    font-size: 29px;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px #f991a2;
+    transition: 1s;
+ }
 main {
     text-align: center; 
    
